@@ -98,8 +98,8 @@ defmodule Ueberauth.Strategy.CAS do
   """
 
   use Ueberauth.Strategy,
-      # Seems to be an OAuth thing, which CAS doesn't do
-      ignores_csrf_attack: true
+    # Seems to be an OAuth thing, which CAS doesn't do
+    ignores_csrf_attack: true
 
   alias Ueberauth.Auth.Info
   alias Ueberauth.Auth.Credentials
